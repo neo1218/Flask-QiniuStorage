@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: Flask-Zero
+Version: 0.9.4
+Summary: Qiniu Storage for Flask
+Home-page: https://github.com/neo1218/Flask-Zero
+Author: neo1218
+Author-email: neo1218@yeah.net
+License: MIT
+Description: Qiniu Storage for Flask. Fork from https://github.com/csuzhangxc/Flask-QiniuStorage
+Keywords: qiniu for flask
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

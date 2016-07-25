@@ -4,15 +4,15 @@ from setuptools import setup
 
 
 setup(
-    name='Flask-QiniuStorage',
-    version='0.9.3',
-    url='https://github.com/csuzhangxc/Flask-QiniuStorage',
+    name='Flask-Zero',
+    version='0.9.4',
+    url='https://github.com/neo1218/Flask-Zero',
     license='MIT',
-    author='Zhang Xuecheng',
-    author_email='csuzhangxc@gmail.com',
+    author='neo1218',
+    author_email='neo1218@yeah.net',
     description='Qiniu Storage for Flask',
-    long_description='Qiniu Storage for Flask. Please visit: https://github.com/csuzhangxc/Flask-QiniuStorage',
-    py_modules=['flask_qiniustorage'],
+    long_description='Qiniu Storage for Flask. Fork from https://github.com/csuzhangxc/Flask-QiniuStorage',
+    py_modules=['flask_zero'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',

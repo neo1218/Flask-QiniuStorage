@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+flask_zero.py
+setup.cfg
+setup.py
+tests.py
+Flask_Zero.egg-info/PKG-INFO
+Flask_Zero.egg-info/SOURCES.txt
+Flask_Zero.egg-info/dependency_links.txt
+Flask_Zero.egg-info/not-zip-safe
+Flask_Zero.egg-info/requires.txt
+Flask_Zero.egg-info/top_level.txt

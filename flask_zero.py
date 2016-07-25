@@ -32,3 +32,12 @@ class Qiniu(object):
 
     def url(self, filename):
         return urljoin(self._base_url, filename)
+
+    def info(self, filename):
+        """获取文件信息"""
+        auth = QiniuClass.Auth(self._access_key, self._secret_key)
+        bucket = QiniuClass.BucketManager(auth)
+        bucket_name = self._bucket_name
+        ret, info = bucket.stat(bucket_name, filename)
+        # return str(info)  # -a dict-: ResponseInfo object, How 2 get item!?
+        return dict(ret)
