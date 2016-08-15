@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Zero',
-    version='0.9.4',
+    version='0.9.5',
     url='https://github.com/neo1218/Flask-Zero',
     license='MIT',
     author='neo1218',

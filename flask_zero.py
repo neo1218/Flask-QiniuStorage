@@ -40,4 +40,7 @@ class Qiniu(object):
         bucket_name = self._bucket_name
         ret, info = bucket.stat(bucket_name, filename)
         # return str(info)  # -a dict-: ResponseInfo object, How 2 get item!?
-        return dict(ret)
+        if ret is not None:
+            return dict(ret)
+        else:
+            return {}
