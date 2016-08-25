@@ -1,3 +1,5 @@
 .idea
 venv
 *.py[cod]
+Flask_Zero.egg-info/
+dist/
